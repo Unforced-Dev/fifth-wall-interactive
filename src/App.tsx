@@ -15,7 +15,7 @@ const queryClient = new QueryClient();
 const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
-      <BrowserRouter>
+      <BrowserRouter basename="/color-craft-collective">
         <TooltipProvider>
           <Toaster />
           <Sonner />
