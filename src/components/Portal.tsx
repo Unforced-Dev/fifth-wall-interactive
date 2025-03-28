@@ -87,7 +87,7 @@ const Portal: React.FC<PortalProps> = ({ onEnter }) => {
 
       {/* Main content with portal */}
       <div className="relative z-10 text-center max-w-3xl">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 neon-text">
+        <h1 className="text-5xl md:text-7xl font-bold mb-4 neon-text">
           Fifth Wall Productions
         </h1>
         <p className="text-xl md:text-2xl text-white/80 mb-12 animate-flicker">
